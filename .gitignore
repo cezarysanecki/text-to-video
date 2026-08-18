@@ -15,3 +15,7 @@ TODO.md
 research
 .secrets
 .DS_Store
+# local working artifacts (per-video subtitle data)
+*.subs.json
+*.captioned.json
+output_*.json
