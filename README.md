@@ -6,6 +6,16 @@
 [![Hugging Face Spaces](https://img.shields.io/badge/Try%20it%20online-Hugging%20Face-blue?logo=huggingface)](https://huggingface.co/spaces/francozanardi/pycaps-new)
 
 
+> ### About this fork
+>
+> This is my working fork of [pycaps](https://github.com/francozanardi/pycaps), set up for captioning short Polish videos (Shorts, Reels, TikTok). On top of the library it adds:
+>
+> - a two-step flow: transcribe, fix the subtitles in a GUI editor, then render (`make subs`, `make edit`, `make render`, `make render-reflow`),
+> - two custom templates: `it-caps` (code-editor style tiles) and `explosive-caps` (glowing letters at 3/4 of the frame height),
+> - setup notes and dependency pins for Intel Macs.
+>
+> Setup and all commands are in [LAUNCH.md](LAUNCH.md). The rest of this README is the upstream pycaps documentation.
+
 **pycaps** is a Python tool for adding CSS styled subtitles to videos. It's designed as both a programmable library and a command-line interface (CLI), making it perfect for automating the creation of dynamic content for platforms like TikTok, YouTube Shorts, and Instagram Reels.
 
 ![demo-1](https://github.com/user-attachments/assets/fd2d3325-c986-4b6a-81ba-09c428577e61)
